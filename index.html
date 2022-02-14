@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="utf-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no"/>
+				<title>咩der文艺社</title>
+				<link rel="stylesheet" href="./mdui/css/mdui.min.css"/>
+				<script src="./mdui/js/mdui.min.js"></script>
+				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css" />
+				<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>
+				<style>
+								body{
+												background-image:url("");
+								}
+								.about{
+												width:auto;
+												height:50px;
+												background-color:#515151 ;
+								}
+				</style>
+				<script>
+								if(window.matchMedia("(max-width: 767px)").matches){
+								console.log("手机版网页");
+							}	else{
+												window.location.href="pc-index.html";
+								}
+								function search() {
+												alert("这个搜索好像没有什么用...");
+												console.log("使用了一次搜索！");
+								}
+				</script>
+<body>
+				<div class="mdui-appbar-fixed">
+  <div class="mdui-toolbar mdui-color-indigo">
+    <a href="#" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#left-drawer'}"><i class="mdui-icon material-icons">menu</i></a>
+    <a href="javascript:;" class=" mdui-toolbar-spacer "><span class="mdui-typo-title">咩der文艺社</span></a>
+    <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons" onclick="search()">search</i></a>
+  </div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3 color="gray">&nbsp;招人标准</h3>
+<ul class="mdui-list">
+				<li class="mdui-list-item">
+								<p>1.热爱动画，二次元</p>
+				</li>
+				<li class="mdui-list-item">
+								<p>2.热爱社团，可以干的慢，但别不干</p>
+				</li>
+				<li class="mdui-list-item">
+								<p>3.我们是非利益团体，有钱就分，没钱就算，不接广告不接单</p>
+				</li>
+				<li class="mdui-list-item">
+								<p>4.有一颗热爱生活的心</p>
+				</li>
+</ul>
+<h3>&nbsp;职业：</h3>
+<ul class="mdui-list">
+				<li class="mdui-list-item">
+								<p>乐师，编剧，美工，配音，创意，总监，剪辑，宣传</p>
+				</li>
+</ul>
+<div class="mdui-drawer" id="#menu">
+				<ul class="mdui-list" style="max-width:200px">
+								<li class="mdui-list-item">
+												<p>关于我们</p>
+								</li>
+				</ul>
+</div>
+  <div class="mdui-drawer" id="left-drawer">
+<ul class="mdui-list">
+				<li class="mdui-list-item">
+								<a href="shili.html">我们的成品</a>
+				</li>
+				<li class="mdui-list-item">
+								<a href="user.html">我们的成员</a>
+				</li>
+				<li class="mdui-list-item"><a href="mailto:3613412661@qq.com?subject=联系我们">联系我们</a></li>
+</ul>
+  </div>
+</body>
+</html>
